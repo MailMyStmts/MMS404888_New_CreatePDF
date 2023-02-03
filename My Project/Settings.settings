@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="PdfNetLicense" Type="System.String" Scope="User">
+      <Value Profile="(Default)">TBJS LLC (payforhealth.com):CPU:1:E:W:AMC(20090622):6EF44DD655ED4421E3C841109C92CA33CC4AB25231985C0CFA3B7EF0FA</Value>
+    </Setting>
+    <Setting Name="StatementIDBoxBottom" Type="System.String" Scope="User">
+      <Value Profile="(Default)">20</Value>
+    </Setting>
+    <Setting Name="StatementIDBoxRight" Type="System.String" Scope="User">
+      <Value Profile="(Default)">20</Value>
+    </Setting>
+    <Setting Name="StatementIDBoxTop" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="StatementIDBoxLeft" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="LogFile" Type="System.String" Scope="User">
+      <Value Profile="(Default)">c:\payforhealth\backendcode\PDF_Splitter\PDF_Splitter_Log.txt</Value>
+    </Setting>
+    <Setting Name="ShowDebug" Type="System.String" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CreatePDF_scanline
+</name>
+</assembly>
+<members>
+<member name="T:CreatePDF.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:CreatePDF.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:CreatePDF.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:CreatePDF.Mod10Algorithm.AddChkDigiToNum(System.String)">
+ <summary>
+ add check digit to a number
+ </summary>
+ <param name="theNum">the number</param>
+ <returns>the number concatenated with check digit</returns>
+ <remarks></remarks>
+</member>
+<member name="M:CreatePDF.Mod10Algorithm.ValidateNum(System.String)">
+ <summary>
+ verify number with check digit is valid
+ </summary>
+ <param name="theNum">the number to validate</param>
+ <returns>true if valid</returns>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

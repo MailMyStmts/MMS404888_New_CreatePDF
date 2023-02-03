@@ -1,0 +1,221 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>libpdfNET</name>
+    </assembly>
+    <members>
+        <member name="F:Pdftools.Pdf.PDFContentObject.eNone">
+            <summary>No valid content object.</summary>
+        </member>
+        <member name="F:Pdftools.Pdf.PDFContentObject.eText">
+            <summary>A text object.</summary>
+        </member>
+        <member name="F:Pdftools.Pdf.PDFContentObject.eImage">
+            <summary>An image object</summary>
+        </member>
+        <member name="F:Pdftools.Pdf.PDFContentObject.ePath">
+            <summary>A path object</summary>
+        </member>
+        <member name="F:Pdftools.Pdf.PDFContentObject.eSave">
+            <summary>Save the current graphics state on the graphics state stack.</summary>
+        </member>
+        <member name="F:Pdftools.Pdf.PDFContentObject.eRestore">
+            <summary>Restore the graphics state by removing the most recently saved state from the stack and making it the current graphics state.</summary>
+        </member>
+        <member name="F:Pdftools.Pdf.PDFFontType.eFontType1">
+            <summary>PostScript Type1 font program.</summary>
+        </member>
+        <member name="F:Pdftools.Pdf.PDFFontType.eFontTrueType">
+            <summary>TrueType font program.</summary>
+        </member>
+        <member name="F:Pdftools.Pdf.PDFFontType.eFontCFF">
+            <summary>PostScript Compact Font Format (CFF) font program.</summary>
+        </member>
+        <member name="F:Pdftools.Pdf.PDFFontType.eFontType3">
+            <summary>PDF font program.</summary>
+        </member>
+        <member name="F:Pdftools.Pdf.PDFStripType.eStripThreads">
+            <summary>Remove Thread, Bead dictionaries.</summary>
+        </member>
+        <member name="F:Pdftools.Pdf.PDFStripType.eStripMetadata">
+            <summary>Remove Metadata dictionaries.</summary>
+        </member>
+        <member name="F:Pdftools.Pdf.PDFStripType.eStripPieceInfo">
+            <summary>PieceInfo dictionaries.</summary>
+        </member>
+        <member name="F:Pdftools.Pdf.PDFStripType.eStripStructTree">
+            <summary>StructTree dictionaries.</summary>
+        </member>
+        <member name="F:Pdftools.Pdf.PDFStripType.eStripThumb">
+            <summary>Thumb dictionaries.</summary>
+        </member>
+        <member name="F:Pdftools.Pdf.PDFStripType.eStripSpider">
+            <summary>Spider dictionaries.</summary>
+        </member>
+        <member name="F:Pdftools.Pdf.PDFStripType.eStripFormsAnnots">
+            <summary>Strip and flatten form fields and annotations.</summary>
+        </member>
+        <member name="F:Pdftools.Pdf.PDFStripType.eStripAlternates">
+            <summary>Strip alternate image dictionaries.</summary>
+        </member>
+        <member name="F:Pdftools.Pdf.PDFColorConversion.eConvNone">
+            <summary>No conversion.</summary>
+        </member>
+        <member name="F:Pdftools.Pdf.PDFColorConversion.eConvRGB">
+            <summary>Color conversion to the ICE sRGB color space (Web).</summary>
+        </member>
+        <member name="F:Pdftools.Pdf.PDFColorConversion.eConvCMYK">
+            <summary>Color conversion to the CMYK color space (Printing).</summary>
+        </member>
+        <member name="F:Pdftools.Pdf.PDFColorConversion.eConvGray">
+            <summary>Color conversion to the Gray color space (B/W TV compatible).</summary>
+        </member>
+        <member name="F:Pdftools.Pdf.PDFAnnotationFlag.eAnnotInvisible">
+            <summary>If set, do not display the annotation.</summary>
+        </member>
+        <member name="F:Pdftools.Pdf.PDFAnnotationFlag.eAnnotHidden">
+            <summary>If set, do not display or print the annotation or allow it to interact with the user.</summary>
+        </member>
+        <member name="F:Pdftools.Pdf.PDFAnnotationFlag.eAnnotPrint">
+            <summary>If set, print the annotation when the page is printed.</summary>
+        </member>
+        <member name="F:Pdftools.Pdf.PDFAnnotationFlag.eAnnotNoZoom">
+            <summary>If set, do not scale the annotation’s appearance to match the magnification of the page</summary>
+        </member>
+        <member name="F:Pdftools.Pdf.PDFAnnotationFlag.eAnnotNoRotate">
+            <summary>If set, do not rotate the annotation’s appearance to match the rotation of the page</summary>
+        </member>
+        <member name="F:Pdftools.Pdf.PDFAnnotationFlag.eAnnotNoView">
+            <summary>If set, do not display the annotation on the screen or allow it to interact with the user.</summary>
+        </member>
+        <member name="F:Pdftools.Pdf.PDFAnnotationFlag.eAnnotReadOnly">
+            <summary>If set, do not allow the annotation to interact with the user.</summary>
+        </member>
+        <member name="F:Pdftools.Pdf.PDFAnnotationFlag.eAnnotLocked">
+            <summary>If set, do not allow the annotation to be deleted or its properties (including position and size) to be modified by the user</summary>
+        </member>
+        <member name="F:Pdftools.Pdf.PDFAnnotationFlag.eAnnotToggleNoView">
+            <summary>If set, invert the interpretation of the NoView flag for certain events.</summary>
+        </member>
+        <member name="F:Pdftools.Pdf.PDFRecoveryOption.eRecoverXREF">
+            <summary>
+            Recover XREF table. Useful if processing a document takes too long,
+            since repairing the cross-reference table is very time consuming.
+            </summary>
+        </member>
+        <member name="F:Pdftools.Pdf.PDFRecoveryOption.eRecoverPages">
+            <summary>
+            If pages are not part of the page tree (loose pages),
+            they will be recovered and added at the end of the document.
+            Skipping this option will remove these pages from the document.
+            </summary>
+        </member>
+        <member name="F:Pdftools.Pdf.PDFRecoveryOption.eRecoverImages">
+            <summary>
+            Try to recover images of a PDF document if the document cannot be repaired.
+            </summary>
+        </member>
+        <member name="T:Pdftools.Pdf.PDFErrorCode">
+            <summary>
+            Error codes of all 3-Heights products.
+            </summary>
+        </member>
+        <member name="T:Pdftools.Pdf.PDFDate">
+            structure representing a date and time of day (e.g. CreationDate) */
+        </member>
+        <member name="F:Pdftools.Pdf.PDFDate.iYear">
+            year 1900..2100 
+        </member>
+        <member name="F:Pdftools.Pdf.PDFDate.iMonth">
+            1..12 
+        </member>
+        <member name="F:Pdftools.Pdf.PDFDate.iDay">
+            1..31 
+        </member>
+        <member name="F:Pdftools.Pdf.PDFDate.iHour">
+            0..23 
+        </member>
+        <member name="F:Pdftools.Pdf.PDFDate.iMinute">
+            0..59 
+        </member>
+        <member name="F:Pdftools.Pdf.PDFDate.iSecond">
+            0..59 
+        </member>
+        <member name="F:Pdftools.Pdf.PDFDate.iUtcOffset">
+            time zone information, offset to UTC in minutes 
+        </member>
+        <member name="T:Pdftools.Pdf.PDFCompression">
+            <summary>
+            Image codec
+            </summary>
+        </member>
+        <member name="F:Pdftools.Pdf.PDFCompression.eComprRaw">
+            <summary>No compression (raw). color depths 1-8, 24</summary>
+        </member>
+        <member name="F:Pdftools.Pdf.PDFCompression.eComprJPEG">
+            <summary>Lossy DCT (Discrete Cosine Transform, JPEG) compression. color depths 8, 24</summary>
+        </member>
+        <member name="F:Pdftools.Pdf.PDFCompression.eComprFlate">
+            <summary>Lossless flate (ZIP)compression. color depths 1-8, 24</summary>
+        </member>
+        <member name="F:Pdftools.Pdf.PDFCompression.eComprLZW">
+            <summary>Lossless LZW (Lempel-Ziv-Welch) compression. color depths 2-8</summary>
+        </member>
+        <member name="F:Pdftools.Pdf.PDFCompression.eComprGroup3">
+            <summary>Lossless CCITT Fax Group3 compression. bitonal</summary>
+        </member>
+        <member name="F:Pdftools.Pdf.PDFCompression.eComprGroup3_2D">
+            <summary>Lossless CCITT Fax Group3 (2D) compression. bitonal</summary>
+        </member>
+        <member name="F:Pdftools.Pdf.PDFCompression.eComprGroup4">
+            <summary>Lossless CCITT Fax Group4 compression. bitonal</summary>
+        </member>
+        <member name="F:Pdftools.Pdf.PDFCompression.eComprJBIG2">
+            <summary>Lossless JBGI2 compression. bitonal</summary>
+        </member>
+        <member name="F:Pdftools.Pdf.PDFCompression.eComprJPEG2000">
+            <summary>Lossy JPEG2000 compression. color depths 8, 24</summary>
+        </member>
+        <member name="F:Pdftools.Pdf.PDFCompression.eComprUnknown">
+            <summary>Unknown Compression</summary>
+        </member>
+        <member name="F:Pdftools.Pdf.PDFCompression.eComprDefault">
+            <summary>Default Compression. Based on file type, i.e. on extension</summary>
+        </member>
+        <member name="T:Pdftools.Pdf.PDFColorSpace">
+            <summary>
+            Color Space
+            </summary>
+        </member>
+        <member name="F:Pdftools.Pdf.PDFColorSpace.eColorGray">
+            <summary>One channel gray.</summary>
+        </member>
+        <member name="F:Pdftools.Pdf.PDFColorSpace.eColorGrayA">
+            <summary>Two channels gray and alpha.</summary>
+        </member>
+        <member name="F:Pdftools.Pdf.PDFColorSpace.eColorRGB">
+            <summary>Three channels red, green, blue.</summary>
+        </member>
+        <member name="F:Pdftools.Pdf.PDFColorSpace.eColorRGBA">
+            <summary>Four channels red, green, blue, alpha.</summary>
+        </member>
+        <member name="F:Pdftools.Pdf.PDFColorSpace.eColorCMYK">
+            <summary>Four channels cyan, magenta, yellow, black.</summary>
+        </member>
+        <member name="F:Pdftools.Pdf.PDFColorSpace.eColorYCbCr">
+            <summary>Three channels Luminance (Y) and Chroma (Cb, Cr)</summary>
+        </member>
+        <member name="F:Pdftools.Pdf.PDFColorSpace.eColorYCbCrK">
+            <summary>Four channels Luminance (Y), Chroma (Cb, Cr) and black.</summary>
+        </member>
+        <member name="F:Pdftools.Pdf.PDFColorSpace.eColorPalette">
+            <summary>One channel palette indices (into an RGB color table).</summary>
+        </member>
+        <member name="F:Pdftools.Pdf.PDFColorSpace.eColorLAB">
+            <summary>Three channels IEC LAB.</summary>
+        </member>
+        <member name="F:Pdftools.Pdf.PDFColorSpace.eColorOther">
+            <summary></summary>
+        </member>
+    </members>
+</doc>

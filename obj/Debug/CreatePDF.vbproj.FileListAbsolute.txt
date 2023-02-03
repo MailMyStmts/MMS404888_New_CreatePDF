@@ -1,0 +1,47 @@
+C:\DEV\MMS404888 Rollins\CreatePDF\obj\Debug\CreatePDF.StatementBack.resources
+C:\DEV\MMS404888 Rollins\CreatePDF\obj\Debug\CreatePDF.Resources.resources
+C:\DEV\MMS404888 Rollins\CreatePDF\obj\Debug\CreatePDF.StatementOS.resources
+C:\DEV\MMS404888 Rollins\CreatePDF\obj\Debug\CreatePDF.vbproj.GenerateResource.Cache
+C:\DEV\MMS404888 Rollins\CreatePDF\obj\Debug\CreatePDF.exe.licenses
+C:\DEV\MMS404888 Rollins\CreatePDF.exe.config
+C:\DEV\MMS404888 Rollins\CreatePDF\obj\Debug\CreatePDF.exe
+C:\DEV\MMS404888 Rollins\CreatePDF\obj\Debug\CreatePDF.xml
+C:\DEV\MMS404888 Rollins\CreatePDF\obj\Debug\CreatePDF.pdb
+C:\DEV\MMS404888 Rollins\CreatePDF.exe
+C:\DEV\MMS404888 Rollins\CreatePDF.pdb
+C:\DEV\MMS404888 Rollins\CreatePDF.xml
+C:\DEV\MMS404888 Rollins\CreatePDF\obj\Debug\CreatePDF.vbprojAssemblyReference.cache
+C:\DEV\MMS404888 Rollins\CreatePDF\obj\Debug\CreatePDF.vbproj.CoreCompileInputs.cache
+C:\DEV\MMS404888 Rollins\CreatePDF\obj\Debug\CreatePDF.vbproj.CopyComplete
+C:\DEV\MMS404888\createpdf\obj\Debug\CreatePDF.vbproj.AssemblyReference.cache
+C:\DEV\MMS404888\createpdf\obj\Debug\CreatePDF.StatementBack.resources
+C:\DEV\MMS404888\createpdf\obj\Debug\CreatePDF.Resources.resources
+C:\DEV\MMS404888\createpdf\obj\Debug\CreatePDF.StatementOS.resources
+C:\DEV\MMS404888\createpdf\obj\Debug\CreatePDF.vbproj.GenerateResource.cache
+C:\DEV\MMS404888\createpdf\obj\Debug\CreatePDF.vbproj.CoreCompileInputs.cache
+C:\DEV\MMS404888\createpdf\obj\Debug\CreatePDF.vbproj.CopyComplete
+C:\DEV\MMS404888\createpdf\obj\Debug\CreatePDF_scanline.exe.licenses
+C:\DEV\MMS404888\CreatePDF_scanline.exe.config
+C:\DEV\MMS404888\createpdf\obj\Debug\CreatePDF_scanline.exe
+C:\DEV\MMS404888\createpdf\obj\Debug\CreatePDF_scanline.xml
+C:\DEV\MMS404888\createpdf\obj\Debug\CreatePDF_scanline.pdb
+C:\DEV\MMS404888\CreatePDF_scanline.exe
+C:\DEV\MMS404888\CreatePDF_scanline.pdb
+C:\DEV\MMS404888\CreatePDF_scanline.xml
+C:\DEV\MMS404888_NewDesigns\createpdf\obj\Debug\CreatePDF.Letters.resources
+C:\DEV\MMS404888_NewDesigns\createpdf\obj\Debug\CreatePDF.StatementBack.resources
+C:\DEV\MMS404888_NewDesigns\createpdf\obj\Debug\CreatePDF.Resources.resources
+C:\DEV\MMS404888_NewDesigns\createpdf\obj\Debug\CreatePDF.StatementOS.resources
+C:\DEV\MMS404888_NewDesigns\createpdf\obj\Debug\CreatePDF.vbproj.GenerateResource.cache
+C:\DEV\MMS404888_NewDesigns\createpdf\obj\Debug\CreatePDF_letter.exe.licenses
+C:\DEV\MMS404888_NewDesigns\createpdf\obj\Debug\CreatePDF.vbproj.CoreCompileInputs.cache
+C:\DEV\MMS404888_NewDesigns\createpdf\obj\Debug\CreatePDF.vbproj.CopyComplete
+C:\DEV\MMS404888_NewDesigns\CreatePDF_letter.exe.config
+C:\DEV\MMS404888_NewDesigns\createpdf\obj\Debug\CreatePDF_letter.exe
+C:\DEV\MMS404888_NewDesigns\createpdf\obj\Debug\CreatePDF_letter.xml
+C:\DEV\MMS404888_NewDesigns\createpdf\obj\Debug\CreatePDF_letter.pdb
+C:\DEV\MMS404888_NewDesigns\CreatePDF_letter.exe
+C:\DEV\MMS404888_NewDesigns\CreatePDF_letter.pdb
+C:\DEV\MMS404888_NewDesigns\CreatePDF_letter.xml
+C:\DEV\MMS404888_NewDesigns\createpdf\obj\Debug\CreatePDF.Invoice.resources
+C:\DEV\MMS404888_NewDesigns\createpdf\obj\Debug\CreatePDF.PastDue.resources
