@@ -112,6 +112,7 @@ Public Class Letters
     Public WithEvents ClarkLogo As SectionReportModel.Picture
     Private WithEvents TextBox33 As SectionReportModel.TextBox
     Private WithEvents txtistatementid As SectionReportModel.TextBox
+    Private WithEvents HomeProLogo As SectionReportModel.Picture
     Public iStatementCount As Integer = 0
 
     Public Sub New()
@@ -135,14 +136,21 @@ Public Class Letters
         Me.txtFooterStatementID = New GrapeCity.ActiveReports.SectionReportModel.TextBox()
         Me.txtPageNumber = New GrapeCity.ActiveReports.SectionReportModel.TextBox()
         Me.GroupHeader1 = New GrapeCity.ActiveReports.SectionReportModel.GroupHeader()
+        Me.BugLogo = New GrapeCity.ActiveReports.SectionReportModel.Picture()
+        Me.ClarkLogo = New GrapeCity.ActiveReports.SectionReportModel.Picture()
+        Me.RollinsLogo = New GrapeCity.ActiveReports.SectionReportModel.Picture()
+        Me.McCallLogo = New GrapeCity.ActiveReports.SectionReportModel.Picture()
+        Me.NwestLogo = New GrapeCity.ActiveReports.SectionReportModel.Picture()
+        Me.TruLogo = New GrapeCity.ActiveReports.SectionReportModel.Picture()
+        Me.PermLogo = New GrapeCity.ActiveReports.SectionReportModel.Picture()
+        Me.HomeLogo = New GrapeCity.ActiveReports.SectionReportModel.Picture()
+        Me.CritLogo = New GrapeCity.ActiveReports.SectionReportModel.Picture()
+        Me.OrkinLogo = New GrapeCity.ActiveReports.SectionReportModel.Picture()
         Me.OpcLogo = New GrapeCity.ActiveReports.SectionReportModel.Picture()
         Me.WestLogo = New GrapeCity.ActiveReports.SectionReportModel.Picture()
         Me.WaltLogo = New GrapeCity.ActiveReports.SectionReportModel.Picture()
-        Me.BugLogo = New GrapeCity.ActiveReports.SectionReportModel.Picture()
-        Me.ClarkLogo = New GrapeCity.ActiveReports.SectionReportModel.Picture()
         Me.Shape6 = New GrapeCity.ActiveReports.SectionReportModel.Shape()
         Me.WL = New GrapeCity.ActiveReports.SectionReportModel.TextBox()
-        Me.RollinsLogo = New GrapeCity.ActiveReports.SectionReportModel.Picture()
         Me.TextBox2 = New GrapeCity.ActiveReports.SectionReportModel.TextBox()
         Me.TextBox3 = New GrapeCity.ActiveReports.SectionReportModel.TextBox()
         Me.TextBox4 = New GrapeCity.ActiveReports.SectionReportModel.TextBox()
@@ -181,13 +189,6 @@ Public Class Letters
         Me.TextBox8 = New GrapeCity.ActiveReports.SectionReportModel.TextBox()
         Me.TextBox1 = New GrapeCity.ActiveReports.SectionReportModel.TextBox()
         Me.WL1 = New GrapeCity.ActiveReports.SectionReportModel.TextBox()
-        Me.McCallLogo = New GrapeCity.ActiveReports.SectionReportModel.Picture()
-        Me.NwestLogo = New GrapeCity.ActiveReports.SectionReportModel.Picture()
-        Me.TruLogo = New GrapeCity.ActiveReports.SectionReportModel.Picture()
-        Me.PermLogo = New GrapeCity.ActiveReports.SectionReportModel.Picture()
-        Me.HomeLogo = New GrapeCity.ActiveReports.SectionReportModel.Picture()
-        Me.CritLogo = New GrapeCity.ActiveReports.SectionReportModel.Picture()
-        Me.OrkinLogo = New GrapeCity.ActiveReports.SectionReportModel.Picture()
         Me.txtistatementid = New GrapeCity.ActiveReports.SectionReportModel.TextBox()
         Me.Shape1 = New GrapeCity.ActiveReports.SectionReportModel.Shape()
         Me.GroupFooter1 = New GrapeCity.ActiveReports.SectionReportModel.GroupFooter()
@@ -228,15 +229,23 @@ Public Class Letters
         Me.txtPgCount = New GrapeCity.ActiveReports.SectionReportModel.TextBox()
         Me.InserterBarcode = New GrapeCity.ActiveReports.SectionReportModel.Barcode()
         Me.InserterFooter = New GrapeCity.ActiveReports.SectionReportModel.GroupFooter()
+        Me.HomeProLogo = New GrapeCity.ActiveReports.SectionReportModel.Picture()
         CType(Me.txtFooterStatementID, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtPageNumber, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.BugLogo, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ClarkLogo, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.RollinsLogo, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.McCallLogo, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.NwestLogo, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TruLogo, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PermLogo, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.HomeLogo, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.CritLogo, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.OrkinLogo, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.OpcLogo, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.WestLogo, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.WaltLogo, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.BugLogo, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ClarkLogo, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.WL, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.RollinsLogo, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox4, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -272,13 +281,6 @@ Public Class Letters
         CType(Me.TextBox8, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.WL1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.McCallLogo, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NwestLogo, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TruLogo, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PermLogo, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.HomeLogo, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CritLogo, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.OrkinLogo, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtistatementid, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtcsendto1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtcsendto2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -308,6 +310,7 @@ Public Class Letters
         CType(Me.txtboxBCD, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtPgNum, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtPgCount, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.HomeProLogo, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me, System.ComponentModel.ISupportInitialize).BeginInit()
         '
         'Detail
@@ -352,10 +355,140 @@ Public Class Letters
         'GroupHeader1
         '
         Me.GroupHeader1.CanGrow = False
-        Me.GroupHeader1.Controls.AddRange(New GrapeCity.ActiveReports.SectionReportModel.ARControl() {Me.BugLogo, Me.ClarkLogo, Me.RollinsLogo, Me.McCallLogo, Me.NwestLogo, Me.TruLogo, Me.PermLogo, Me.HomeLogo, Me.CritLogo, Me.OrkinLogo, Me.OpcLogo, Me.WestLogo, Me.WaltLogo, Me.Shape6, Me.WL, Me.TextBox2, Me.TextBox3, Me.TextBox4, Me.TextBox5, Me.TextBox6, Me.Shape2, Me.Shape3, Me.TextBox9, Me.TextBox10, Me.TextBox11, Me.TextBox12, Me.TextBox13, Me.TextBox14, Me.TextBox15, Me.TextBox16, Me.TextBox17, Me.TextBox18, Me.TextBox19, Me.TextBox20, Me.TextBox21, Me.txtmamountdue, Me.TextBox22, Me.TextBox23, Me.Picture3, Me.Picture4, Me.TextBox26, Me.TextBox27, Me.TextBox28, Me.TextBox29, Me.TextBox30, Me.TextBox31, Me.Picture5, Me.Shape4, Me.Picture2, Me.TextBox7, Me.TextBox8, Me.TextBox1, Me.WL1, Me.txtistatementid, Me.Shape1})
+        Me.GroupHeader1.Controls.AddRange(New GrapeCity.ActiveReports.SectionReportModel.ARControl() {Me.BugLogo, Me.ClarkLogo, Me.RollinsLogo, Me.McCallLogo, Me.NwestLogo, Me.TruLogo, Me.PermLogo, Me.HomeLogo, Me.CritLogo, Me.OrkinLogo, Me.OpcLogo, Me.WestLogo, Me.WaltLogo, Me.Shape6, Me.WL, Me.TextBox2, Me.TextBox3, Me.TextBox4, Me.TextBox5, Me.TextBox6, Me.Shape2, Me.Shape3, Me.TextBox9, Me.TextBox10, Me.TextBox11, Me.TextBox12, Me.TextBox13, Me.TextBox14, Me.TextBox15, Me.TextBox16, Me.TextBox17, Me.TextBox18, Me.TextBox19, Me.TextBox20, Me.TextBox21, Me.txtmamountdue, Me.TextBox22, Me.TextBox23, Me.Picture3, Me.Picture4, Me.TextBox26, Me.TextBox27, Me.TextBox28, Me.TextBox29, Me.TextBox30, Me.TextBox31, Me.Picture5, Me.Shape4, Me.Picture2, Me.TextBox7, Me.TextBox8, Me.TextBox1, Me.WL1, Me.txtistatementid, Me.Shape1, Me.HomeProLogo})
         Me.GroupHeader1.DataField = "istatementid"
         Me.GroupHeader1.Height = 6.811917!
         Me.GroupHeader1.Name = "GroupHeader1"
+        '
+        'BugLogo
+        '
+        Me.BugLogo.DataField = ""
+        Me.BugLogo.Height = 1.153!
+        Me.BugLogo.HyperLink = Nothing
+        Me.BugLogo.ImageData = CType(resources.GetObject("BugLogo.ImageData"), System.IO.Stream)
+        Me.BugLogo.Left = 2.74!
+        Me.BugLogo.Name = "BugLogo"
+        Me.BugLogo.SizeMode = GrapeCity.ActiveReports.SectionReportModel.SizeModes.Zoom
+        Me.BugLogo.Top = 0.3!
+        Me.BugLogo.Visible = False
+        Me.BugLogo.Width = 2.642001!
+        '
+        'ClarkLogo
+        '
+        Me.ClarkLogo.DataField = ""
+        Me.ClarkLogo.Height = 1.153!
+        Me.ClarkLogo.HyperLink = Nothing
+        Me.ClarkLogo.ImageData = CType(resources.GetObject("ClarkLogo.ImageData"), System.IO.Stream)
+        Me.ClarkLogo.Left = 2.74!
+        Me.ClarkLogo.Name = "ClarkLogo"
+        Me.ClarkLogo.SizeMode = GrapeCity.ActiveReports.SectionReportModel.SizeModes.Zoom
+        Me.ClarkLogo.Top = 0.3!
+        Me.ClarkLogo.Visible = False
+        Me.ClarkLogo.Width = 2.642001!
+        '
+        'RollinsLogo
+        '
+        Me.RollinsLogo.DataField = ""
+        Me.RollinsLogo.Height = 1.153!
+        Me.RollinsLogo.HyperLink = Nothing
+        Me.RollinsLogo.ImageData = CType(resources.GetObject("RollinsLogo.ImageData"), System.IO.Stream)
+        Me.RollinsLogo.Left = 2.74!
+        Me.RollinsLogo.Name = "RollinsLogo"
+        Me.RollinsLogo.SizeMode = GrapeCity.ActiveReports.SectionReportModel.SizeModes.Zoom
+        Me.RollinsLogo.Top = 0.3!
+        Me.RollinsLogo.Visible = False
+        Me.RollinsLogo.Width = 2.642001!
+        '
+        'McCallLogo
+        '
+        Me.McCallLogo.DataField = ""
+        Me.McCallLogo.Height = 1.153!
+        Me.McCallLogo.HyperLink = Nothing
+        Me.McCallLogo.ImageData = CType(resources.GetObject("McCallLogo.ImageData"), System.IO.Stream)
+        Me.McCallLogo.Left = 2.751!
+        Me.McCallLogo.Name = "McCallLogo"
+        Me.McCallLogo.SizeMode = GrapeCity.ActiveReports.SectionReportModel.SizeModes.Zoom
+        Me.McCallLogo.Top = 0.3!
+        Me.McCallLogo.Visible = False
+        Me.McCallLogo.Width = 2.642001!
+        '
+        'NwestLogo
+        '
+        Me.NwestLogo.DataField = ""
+        Me.NwestLogo.Height = 1.153!
+        Me.NwestLogo.HyperLink = Nothing
+        Me.NwestLogo.ImageData = CType(resources.GetObject("NwestLogo.ImageData"), System.IO.Stream)
+        Me.NwestLogo.Left = 2.751!
+        Me.NwestLogo.Name = "NwestLogo"
+        Me.NwestLogo.SizeMode = GrapeCity.ActiveReports.SectionReportModel.SizeModes.Zoom
+        Me.NwestLogo.Top = 0.3!
+        Me.NwestLogo.Visible = False
+        Me.NwestLogo.Width = 2.642001!
+        '
+        'TruLogo
+        '
+        Me.TruLogo.DataField = ""
+        Me.TruLogo.Height = 1.153!
+        Me.TruLogo.HyperLink = Nothing
+        Me.TruLogo.ImageData = CType(resources.GetObject("TruLogo.ImageData"), System.IO.Stream)
+        Me.TruLogo.Left = 2.751!
+        Me.TruLogo.Name = "TruLogo"
+        Me.TruLogo.SizeMode = GrapeCity.ActiveReports.SectionReportModel.SizeModes.Zoom
+        Me.TruLogo.Top = 0.3!
+        Me.TruLogo.Visible = False
+        Me.TruLogo.Width = 2.642001!
+        '
+        'PermLogo
+        '
+        Me.PermLogo.DataField = ""
+        Me.PermLogo.Height = 1.153!
+        Me.PermLogo.HyperLink = Nothing
+        Me.PermLogo.ImageData = CType(resources.GetObject("PermLogo.ImageData"), System.IO.Stream)
+        Me.PermLogo.Left = 2.74!
+        Me.PermLogo.Name = "PermLogo"
+        Me.PermLogo.SizeMode = GrapeCity.ActiveReports.SectionReportModel.SizeModes.Zoom
+        Me.PermLogo.Top = 0.3!
+        Me.PermLogo.Visible = False
+        Me.PermLogo.Width = 2.642001!
+        '
+        'HomeLogo
+        '
+        Me.HomeLogo.DataField = ""
+        Me.HomeLogo.Height = 1.153!
+        Me.HomeLogo.HyperLink = Nothing
+        Me.HomeLogo.ImageData = CType(resources.GetObject("HomeLogo.ImageData"), System.IO.Stream)
+        Me.HomeLogo.Left = 2.751!
+        Me.HomeLogo.Name = "HomeLogo"
+        Me.HomeLogo.SizeMode = GrapeCity.ActiveReports.SectionReportModel.SizeModes.Zoom
+        Me.HomeLogo.Top = 0.3!
+        Me.HomeLogo.Visible = False
+        Me.HomeLogo.Width = 2.642001!
+        '
+        'CritLogo
+        '
+        Me.CritLogo.DataField = ""
+        Me.CritLogo.Height = 1.153!
+        Me.CritLogo.HyperLink = Nothing
+        Me.CritLogo.ImageData = CType(resources.GetObject("CritLogo.ImageData"), System.IO.Stream)
+        Me.CritLogo.Left = 2.751!
+        Me.CritLogo.Name = "CritLogo"
+        Me.CritLogo.SizeMode = GrapeCity.ActiveReports.SectionReportModel.SizeModes.Zoom
+        Me.CritLogo.Top = 0.3!
+        Me.CritLogo.Visible = False
+        Me.CritLogo.Width = 2.642001!
+        '
+        'OrkinLogo
+        '
+        Me.OrkinLogo.DataField = ""
+        Me.OrkinLogo.Height = 1.153!
+        Me.OrkinLogo.HyperLink = Nothing
+        Me.OrkinLogo.ImageData = CType(resources.GetObject("OrkinLogo.ImageData"), System.IO.Stream)
+        Me.OrkinLogo.Left = 2.74!
+        Me.OrkinLogo.Name = "OrkinLogo"
+        Me.OrkinLogo.SizeMode = GrapeCity.ActiveReports.SectionReportModel.SizeModes.Zoom
+        Me.OrkinLogo.Top = 0.3!
+        Me.OrkinLogo.Visible = False
+        Me.OrkinLogo.Width = 2.642001!
         '
         'OpcLogo
         '
@@ -396,32 +529,6 @@ Public Class Letters
         Me.WaltLogo.Visible = False
         Me.WaltLogo.Width = 2.642001!
         '
-        'BugLogo
-        '
-        Me.BugLogo.DataField = ""
-        Me.BugLogo.Height = 1.153!
-        Me.BugLogo.HyperLink = Nothing
-        Me.BugLogo.ImageData = CType(resources.GetObject("BugLogo.ImageData"), System.IO.Stream)
-        Me.BugLogo.Left = 2.74!
-        Me.BugLogo.Name = "BugLogo"
-        Me.BugLogo.SizeMode = GrapeCity.ActiveReports.SectionReportModel.SizeModes.Zoom
-        Me.BugLogo.Top = 0.3!
-        Me.BugLogo.Visible = False
-        Me.BugLogo.Width = 2.642001!
-        '
-        'ClarkLogo
-        '
-        Me.ClarkLogo.DataField = ""
-        Me.ClarkLogo.Height = 1.153!
-        Me.ClarkLogo.HyperLink = Nothing
-        Me.ClarkLogo.ImageData = CType(resources.GetObject("ClarkLogo.ImageData"), System.IO.Stream)
-        Me.ClarkLogo.Left = 2.74!
-        Me.ClarkLogo.Name = "ClarkLogo"
-        Me.ClarkLogo.SizeMode = GrapeCity.ActiveReports.SectionReportModel.SizeModes.Zoom
-        Me.ClarkLogo.Top = 0.3!
-        Me.ClarkLogo.Visible = False
-        Me.ClarkLogo.Width = 2.642001!
-        '
         'Shape6
         '
         Me.Shape6.BackColor = System.Drawing.Color.WhiteSmoke
@@ -448,19 +555,6 @@ Public Class Letters
         Me.WL.Top = 2.129!
         Me.WL.Visible = False
         Me.WL.Width = 7.854002!
-        '
-        'RollinsLogo
-        '
-        Me.RollinsLogo.DataField = ""
-        Me.RollinsLogo.Height = 1.153!
-        Me.RollinsLogo.HyperLink = Nothing
-        Me.RollinsLogo.ImageData = CType(resources.GetObject("RollinsLogo.ImageData"), System.IO.Stream)
-        Me.RollinsLogo.Left = 2.74!
-        Me.RollinsLogo.Name = "RollinsLogo"
-        Me.RollinsLogo.SizeMode = GrapeCity.ActiveReports.SectionReportModel.SizeModes.Zoom
-        Me.RollinsLogo.Top = 0.3!
-        Me.RollinsLogo.Visible = False
-        Me.RollinsLogo.Width = 2.642001!
         '
         'TextBox2
         '
@@ -880,97 +974,6 @@ Public Class Letters
         Me.WL1.Top = 1.827!
         Me.WL1.Visible = False
         Me.WL1.Width = 7.854001!
-        '
-        'McCallLogo
-        '
-        Me.McCallLogo.DataField = ""
-        Me.McCallLogo.Height = 1.153!
-        Me.McCallLogo.HyperLink = Nothing
-        Me.McCallLogo.ImageData = CType(resources.GetObject("McCallLogo.ImageData"), System.IO.Stream)
-        Me.McCallLogo.Left = 2.751!
-        Me.McCallLogo.Name = "McCallLogo"
-        Me.McCallLogo.SizeMode = GrapeCity.ActiveReports.SectionReportModel.SizeModes.Zoom
-        Me.McCallLogo.Top = 0.3!
-        Me.McCallLogo.Visible = False
-        Me.McCallLogo.Width = 2.642001!
-        '
-        'NwestLogo
-        '
-        Me.NwestLogo.DataField = ""
-        Me.NwestLogo.Height = 1.153!
-        Me.NwestLogo.HyperLink = Nothing
-        Me.NwestLogo.ImageData = CType(resources.GetObject("NwestLogo.ImageData"), System.IO.Stream)
-        Me.NwestLogo.Left = 2.751!
-        Me.NwestLogo.Name = "NwestLogo"
-        Me.NwestLogo.SizeMode = GrapeCity.ActiveReports.SectionReportModel.SizeModes.Zoom
-        Me.NwestLogo.Top = 0.3!
-        Me.NwestLogo.Visible = False
-        Me.NwestLogo.Width = 2.642001!
-        '
-        'TruLogo
-        '
-        Me.TruLogo.DataField = ""
-        Me.TruLogo.Height = 1.153!
-        Me.TruLogo.HyperLink = Nothing
-        Me.TruLogo.ImageData = CType(resources.GetObject("TruLogo.ImageData"), System.IO.Stream)
-        Me.TruLogo.Left = 2.751!
-        Me.TruLogo.Name = "TruLogo"
-        Me.TruLogo.SizeMode = GrapeCity.ActiveReports.SectionReportModel.SizeModes.Zoom
-        Me.TruLogo.Top = 0.3!
-        Me.TruLogo.Visible = False
-        Me.TruLogo.Width = 2.642001!
-        '
-        'PermLogo
-        '
-        Me.PermLogo.DataField = ""
-        Me.PermLogo.Height = 1.153!
-        Me.PermLogo.HyperLink = Nothing
-        Me.PermLogo.ImageData = CType(resources.GetObject("PermLogo.ImageData"), System.IO.Stream)
-        Me.PermLogo.Left = 2.74!
-        Me.PermLogo.Name = "PermLogo"
-        Me.PermLogo.SizeMode = GrapeCity.ActiveReports.SectionReportModel.SizeModes.Zoom
-        Me.PermLogo.Top = 0.3!
-        Me.PermLogo.Visible = False
-        Me.PermLogo.Width = 2.642001!
-        '
-        'HomeLogo
-        '
-        Me.HomeLogo.DataField = ""
-        Me.HomeLogo.Height = 1.153!
-        Me.HomeLogo.HyperLink = Nothing
-        Me.HomeLogo.ImageData = CType(resources.GetObject("HomeLogo.ImageData"), System.IO.Stream)
-        Me.HomeLogo.Left = 2.751!
-        Me.HomeLogo.Name = "HomeLogo"
-        Me.HomeLogo.SizeMode = GrapeCity.ActiveReports.SectionReportModel.SizeModes.Zoom
-        Me.HomeLogo.Top = 0.3!
-        Me.HomeLogo.Visible = False
-        Me.HomeLogo.Width = 2.642001!
-        '
-        'CritLogo
-        '
-        Me.CritLogo.DataField = ""
-        Me.CritLogo.Height = 1.153!
-        Me.CritLogo.HyperLink = Nothing
-        Me.CritLogo.ImageData = CType(resources.GetObject("CritLogo.ImageData"), System.IO.Stream)
-        Me.CritLogo.Left = 2.751!
-        Me.CritLogo.Name = "CritLogo"
-        Me.CritLogo.SizeMode = GrapeCity.ActiveReports.SectionReportModel.SizeModes.Zoom
-        Me.CritLogo.Top = 0.3!
-        Me.CritLogo.Visible = False
-        Me.CritLogo.Width = 2.642001!
-        '
-        'OrkinLogo
-        '
-        Me.OrkinLogo.DataField = ""
-        Me.OrkinLogo.Height = 1.153!
-        Me.OrkinLogo.HyperLink = Nothing
-        Me.OrkinLogo.ImageData = CType(resources.GetObject("OrkinLogo.ImageData"), System.IO.Stream)
-        Me.OrkinLogo.Left = 2.74!
-        Me.OrkinLogo.Name = "OrkinLogo"
-        Me.OrkinLogo.SizeMode = GrapeCity.ActiveReports.SectionReportModel.SizeModes.Zoom
-        Me.OrkinLogo.Top = 0.3!
-        Me.OrkinLogo.Visible = False
-        Me.OrkinLogo.Width = 2.642001!
         '
         'txtistatementid
         '
@@ -1460,6 +1463,19 @@ Public Class Letters
         Me.InserterFooter.Name = "InserterFooter"
         Me.InserterFooter.Visible = False
         '
+        'HomeProLogo
+        '
+        Me.HomeProLogo.DataField = ""
+        Me.HomeProLogo.Height = 1.153!
+        Me.HomeProLogo.HyperLink = Nothing
+        Me.HomeProLogo.ImageData = CType(resources.GetObject("HomeProLogo.ImageData"), System.IO.Stream)
+        Me.HomeProLogo.Left = 2.74!
+        Me.HomeProLogo.Name = "HomeProLogo"
+        Me.HomeProLogo.SizeMode = GrapeCity.ActiveReports.SectionReportModel.SizeModes.Zoom
+        Me.HomeProLogo.Top = 0.287!
+        Me.HomeProLogo.Visible = False
+        Me.HomeProLogo.Width = 2.642001!
+        '
         'Letters
         '
         Me.MasterReport = False
@@ -1492,13 +1508,20 @@ Public Class Letters
         Me.StyleSheet.Add(New DDCssLib.StyleSheetRule("font-size: 13pt; font-weight: bold", "Heading3", "Normal"))
         CType(Me.txtFooterStatementID, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtPageNumber, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.BugLogo, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ClarkLogo, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.RollinsLogo, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.McCallLogo, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.NwestLogo, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TruLogo, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PermLogo, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.HomeLogo, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.CritLogo, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.OrkinLogo, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.OpcLogo, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.WestLogo, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.WaltLogo, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.BugLogo, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ClarkLogo, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.WL, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.RollinsLogo, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextBox4, System.ComponentModel.ISupportInitialize).EndInit()
@@ -1534,13 +1557,6 @@ Public Class Letters
         CType(Me.TextBox8, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.WL1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.McCallLogo, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NwestLogo, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TruLogo, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PermLogo, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.HomeLogo, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CritLogo, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.OrkinLogo, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtistatementid, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtcsendto1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtcsendto2, System.ComponentModel.ISupportInitialize).EndInit()
@@ -1570,6 +1586,7 @@ Public Class Letters
         CType(Me.txtboxBCD, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtPgNum, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtPgCount, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.HomeProLogo, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me, System.ComponentModel.ISupportInitialize).EndInit()
 
     End Sub
@@ -1715,6 +1732,7 @@ Public Class Letters
         TruLogo.Visible = False
         NwestLogo.Visible = False
         RollinsLogo.Visible = False
+        HomeProLogo.Visible = False
 
         Dim brand As String = Me.DataLayer.Fields.Item("ccustom10").Value.ToString
         Select Case brand
@@ -1742,6 +1760,8 @@ Public Class Letters
                 TruLogo.Visible = True
             Case "NWEST"
                 NwestLogo.Visible = True
+            Case "HOMEP"
+                HomeProLogo.Visible = True
         End Select
 
     End Sub
