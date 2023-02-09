@@ -191,6 +191,7 @@ Public Class Letters
         Me.WL1 = New GrapeCity.ActiveReports.SectionReportModel.TextBox()
         Me.txtistatementid = New GrapeCity.ActiveReports.SectionReportModel.TextBox()
         Me.Shape1 = New GrapeCity.ActiveReports.SectionReportModel.Shape()
+        Me.HomeProLogo = New GrapeCity.ActiveReports.SectionReportModel.Picture()
         Me.GroupFooter1 = New GrapeCity.ActiveReports.SectionReportModel.GroupFooter()
         Me.Shape8 = New GrapeCity.ActiveReports.SectionReportModel.Shape()
         Me.txtcsendto1 = New GrapeCity.ActiveReports.SectionReportModel.TextBox()
@@ -229,7 +230,6 @@ Public Class Letters
         Me.txtPgCount = New GrapeCity.ActiveReports.SectionReportModel.TextBox()
         Me.InserterBarcode = New GrapeCity.ActiveReports.SectionReportModel.Barcode()
         Me.InserterFooter = New GrapeCity.ActiveReports.SectionReportModel.GroupFooter()
-        Me.HomeProLogo = New GrapeCity.ActiveReports.SectionReportModel.Picture()
         CType(Me.txtFooterStatementID, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtPageNumber, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.BugLogo, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -282,6 +282,7 @@ Public Class Letters
         CType(Me.TextBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.WL1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtistatementid, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.HomeProLogo, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtcsendto1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtcsendto2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtcsendto3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -310,7 +311,6 @@ Public Class Letters
         CType(Me.txtboxBCD, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtPgNum, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtPgCount, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.HomeProLogo, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me, System.ComponentModel.ISupportInitialize).BeginInit()
         '
         'Detail
@@ -355,7 +355,7 @@ Public Class Letters
         'GroupHeader1
         '
         Me.GroupHeader1.CanGrow = False
-        Me.GroupHeader1.Controls.AddRange(New GrapeCity.ActiveReports.SectionReportModel.ARControl() {Me.BugLogo, Me.ClarkLogo, Me.RollinsLogo, Me.McCallLogo, Me.NwestLogo, Me.TruLogo, Me.PermLogo, Me.HomeLogo, Me.CritLogo, Me.OrkinLogo, Me.OpcLogo, Me.WestLogo, Me.WaltLogo, Me.Shape6, Me.WL, Me.TextBox2, Me.TextBox3, Me.TextBox4, Me.TextBox5, Me.TextBox6, Me.Shape2, Me.Shape3, Me.TextBox9, Me.TextBox10, Me.TextBox11, Me.TextBox12, Me.TextBox13, Me.TextBox14, Me.TextBox15, Me.TextBox16, Me.TextBox17, Me.TextBox18, Me.TextBox19, Me.TextBox20, Me.TextBox21, Me.txtmamountdue, Me.TextBox22, Me.TextBox23, Me.Picture3, Me.Picture4, Me.TextBox26, Me.TextBox27, Me.TextBox28, Me.TextBox29, Me.TextBox30, Me.TextBox31, Me.Picture5, Me.Shape4, Me.Picture2, Me.TextBox7, Me.TextBox8, Me.TextBox1, Me.WL1, Me.txtistatementid, Me.Shape1, Me.HomeProLogo})
+        Me.GroupHeader1.Controls.AddRange(New GrapeCity.ActiveReports.SectionReportModel.ARControl() {Me.BugLogo, Me.ClarkLogo, Me.RollinsLogo, Me.McCallLogo, Me.NwestLogo, Me.TruLogo, Me.PermLogo, Me.HomeLogo, Me.CritLogo, Me.OrkinLogo, Me.OpcLogo, Me.WestLogo, Me.WaltLogo, Me.Shape6, Me.WL, Me.TextBox2, Me.TextBox3, Me.TextBox4, Me.TextBox5, Me.TextBox6, Me.Shape2, Me.Shape3, Me.TextBox9, Me.TextBox10, Me.TextBox11, Me.TextBox12, Me.TextBox13, Me.TextBox14, Me.TextBox15, Me.TextBox16, Me.TextBox17, Me.TextBox18, Me.TextBox19, Me.TextBox20, Me.TextBox21, Me.txtmamountdue, Me.TextBox22, Me.TextBox23, Me.Picture3, Me.Picture4, Me.TextBox26, Me.TextBox27, Me.TextBox28, Me.TextBox29, Me.TextBox30, Me.TextBox31, Me.Picture5, Me.Shape4, Me.Picture2, Me.TextBox7, Me.TextBox8, Me.TextBox1, Me.WL1, Me.txtistatementid, Me.HomeProLogo, Me.Shape1})
         Me.GroupHeader1.DataField = "istatementid"
         Me.GroupHeader1.Height = 6.811917!
         Me.GroupHeader1.Name = "GroupHeader1"
@@ -1001,6 +1001,19 @@ Public Class Letters
         Me.Shape1.Top = 4.125!
         Me.Shape1.Width = 2.676834!
         '
+        'HomeProLogo
+        '
+        Me.HomeProLogo.DataField = ""
+        Me.HomeProLogo.Height = 1.153!
+        Me.HomeProLogo.HyperLink = Nothing
+        Me.HomeProLogo.ImageData = CType(resources.GetObject("HomeProLogo.ImageData"), System.IO.Stream)
+        Me.HomeProLogo.Left = 2.74!
+        Me.HomeProLogo.Name = "HomeProLogo"
+        Me.HomeProLogo.SizeMode = GrapeCity.ActiveReports.SectionReportModel.SizeModes.Zoom
+        Me.HomeProLogo.Top = 0.287!
+        Me.HomeProLogo.Visible = False
+        Me.HomeProLogo.Width = 2.642001!
+        '
         'GroupFooter1
         '
         Me.GroupFooter1.Controls.AddRange(New GrapeCity.ActiveReports.SectionReportModel.ARControl() {Me.Shape8, Me.txtcsendto1, Me.txtcsendto2, Me.txtcsendto3, Me.txtcsendto4, Me.txtcremitto1, Me.txtcremitto2, Me.txtcremitto3, Me.txtcremitto4, Me.txtcfrom1, Me.txtcfrom2, Me.txtcfrom3, Me.txtcfrom4, Me.TextBox32, Me.Label7, Me.TextBox24, Me.Label6, Me.TextBox25, Me.txtcstmtdate, Me.TextBox34, Me.Line3, Me.Label13, Me.Label16, Me.Label17, Me.Line15, Me.Line17, Me.txtOCR, Me.Label1, Me.Line1, Me.Line2, Me.TextBox33})
@@ -1463,19 +1476,6 @@ Public Class Letters
         Me.InserterFooter.Name = "InserterFooter"
         Me.InserterFooter.Visible = False
         '
-        'HomeProLogo
-        '
-        Me.HomeProLogo.DataField = ""
-        Me.HomeProLogo.Height = 1.153!
-        Me.HomeProLogo.HyperLink = Nothing
-        Me.HomeProLogo.ImageData = CType(resources.GetObject("HomeProLogo.ImageData"), System.IO.Stream)
-        Me.HomeProLogo.Left = 2.74!
-        Me.HomeProLogo.Name = "HomeProLogo"
-        Me.HomeProLogo.SizeMode = GrapeCity.ActiveReports.SectionReportModel.SizeModes.Zoom
-        Me.HomeProLogo.Top = 0.287!
-        Me.HomeProLogo.Visible = False
-        Me.HomeProLogo.Width = 2.642001!
-        '
         'Letters
         '
         Me.MasterReport = False
@@ -1558,6 +1558,7 @@ Public Class Letters
         CType(Me.TextBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.WL1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtistatementid, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.HomeProLogo, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtcsendto1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtcsendto2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtcsendto3, System.ComponentModel.ISupportInitialize).EndInit()
@@ -1586,7 +1587,6 @@ Public Class Letters
         CType(Me.txtboxBCD, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtPgNum, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtPgCount, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.HomeProLogo, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me, System.ComponentModel.ISupportInitialize).EndInit()
 
     End Sub
@@ -1857,25 +1857,28 @@ Public Class Letters
 
     Private Sub GroupFooter1_Format(sender As Object, e As EventArgs) Handles GroupFooter1.Format
 
-
-        'OCR SCANLINE
-        txtOCR.Left = 2.77
-        Dim sAccNum As String = TextBox24.Text.ToString 'ACCT NUMBER
-        sAccNum = sAccNum.Replace("Account #:", "")
-        sAccNum = sAccNum.Trim
-        sAccNum = sAccNum.PadLeft(15, "0")
-        Dim dAmount As Decimal = TextBox27.Text.ToString.Replace("$", "") 'AMOUNT DUE
-        Dim sAmountDue As String = dAmount.ToString("C")
-        sAmountDue = sAmountDue.Replace(".", "")
-        sAmountDue = sAmountDue.Replace("$", "")
-        sAmountDue = sAmountDue.Replace(",", "")
-        'REPLACE NEGATIVE AMOUNT DUES WITH AN X 
-        sAmountDue = sAmountDue.Replace("(", "X")
-        sAmountDue = sAmountDue.Replace(")", "")
-        sAmountDue = sAmountDue.PadLeft(10, "0")
-        Dim sFullOCR As String = sAccNum + sAmountDue
-        txtOCR.Text = Mod10Algorithm.AddChkDigiToNum(sFullOCR)
-        txtOCR.Visible = True
+        Try
+            'OCR SCANLINE
+            txtOCR.Left = 2.77
+            Dim sAccNum As String = TextBox24.Text.ToString 'ACCT NUMBER
+            sAccNum = sAccNum.Replace("Account #:", "")
+            sAccNum = sAccNum.Trim
+            sAccNum = sAccNum.PadLeft(15, "0")
+            Dim dAmount As Decimal = TextBox27.Text.ToString.Replace("$", "") 'AMOUNT DUE
+            Dim sAmountDue As String = dAmount.ToString("C")
+            sAmountDue = sAmountDue.Replace(".", "")
+            sAmountDue = sAmountDue.Replace("$", "")
+            sAmountDue = sAmountDue.Replace(",", "")
+            'REPLACE NEGATIVE AMOUNT DUES WITH AN X 
+            sAmountDue = sAmountDue.Replace("(", "X")
+            sAmountDue = sAmountDue.Replace(")", "")
+            sAmountDue = sAmountDue.PadLeft(10, "0")
+            Dim sFullOCR As String = sAccNum + sAmountDue
+            txtOCR.Text = Mod10Algorithm.AddChkDigiToNum(sFullOCR)
+            txtOCR.Visible = True
+        Catch
+            txtOCR.Visible = False
+        End Try
 
 
         txtcfrom1.Text = txtcfrom1.Text.ToUpper
