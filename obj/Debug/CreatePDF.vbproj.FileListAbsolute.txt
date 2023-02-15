@@ -45,3 +45,4 @@ C:\DEV\MMS404888_NewDesigns\CreatePDF_letter.pdb
 C:\DEV\MMS404888_NewDesigns\CreatePDF_letter.xml
 C:\DEV\MMS404888_NewDesigns\createpdf\obj\Debug\CreatePDF.Invoice.resources
 C:\DEV\MMS404888_NewDesigns\createpdf\obj\Debug\CreatePDF.PastDue.resources
+C:\DEV\MMS404888_NewDesigns\createpdf\obj\Debug\CreatePDF.vbproj.AssemblyReference.cache

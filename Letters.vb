@@ -190,8 +190,8 @@ Public Class Letters
         Me.TextBox1 = New GrapeCity.ActiveReports.SectionReportModel.TextBox()
         Me.WL1 = New GrapeCity.ActiveReports.SectionReportModel.TextBox()
         Me.txtistatementid = New GrapeCity.ActiveReports.SectionReportModel.TextBox()
-        Me.Shape1 = New GrapeCity.ActiveReports.SectionReportModel.Shape()
         Me.HomeProLogo = New GrapeCity.ActiveReports.SectionReportModel.Picture()
+        Me.Shape1 = New GrapeCity.ActiveReports.SectionReportModel.Shape()
         Me.GroupFooter1 = New GrapeCity.ActiveReports.SectionReportModel.GroupFooter()
         Me.Shape8 = New GrapeCity.ActiveReports.SectionReportModel.Shape()
         Me.txtcsendto1 = New GrapeCity.ActiveReports.SectionReportModel.TextBox()
@@ -729,7 +729,7 @@ Public Class Letters
         Me.TextBox18.Name = "TextBox18"
         Me.TextBox18.Style = "color: Black; font-size: 11pt; font-weight: normal; text-align: center; ddo-char-" &
     "set: 1"
-        Me.TextBox18.Text = "Payoff Amount:"
+        Me.TextBox18.Text = "Unpaid Principal:"
         Me.TextBox18.Top = 4.465!
         Me.TextBox18.Width = 1.972!
         '
@@ -990,17 +990,6 @@ Public Class Letters
         Me.txtistatementid.Visible = False
         Me.txtistatementid.Width = 0.562417!
         '
-        'Shape1
-        '
-        Me.Shape1.Height = 0.6875!
-        Me.Shape1.Left = 2.25!
-        Me.Shape1.LineColor = System.Drawing.Color.FromArgb(CType(CType(211, Byte), Integer), CType(CType(13, Byte), Integer), CType(CType(43, Byte), Integer))
-        Me.Shape1.LineWeight = 3.0!
-        Me.Shape1.Name = "Shape1"
-        Me.Shape1.RoundingRadius = New GrapeCity.ActiveReports.Controls.CornersRadius(10.0!, Nothing, Nothing, Nothing, Nothing)
-        Me.Shape1.Top = 4.125!
-        Me.Shape1.Width = 2.676834!
-        '
         'HomeProLogo
         '
         Me.HomeProLogo.DataField = ""
@@ -1013,6 +1002,17 @@ Public Class Letters
         Me.HomeProLogo.Top = 0.287!
         Me.HomeProLogo.Visible = False
         Me.HomeProLogo.Width = 2.642001!
+        '
+        'Shape1
+        '
+        Me.Shape1.Height = 0.6875!
+        Me.Shape1.Left = 2.25!
+        Me.Shape1.LineColor = System.Drawing.Color.FromArgb(CType(CType(211, Byte), Integer), CType(CType(13, Byte), Integer), CType(CType(43, Byte), Integer))
+        Me.Shape1.LineWeight = 3.0!
+        Me.Shape1.Name = "Shape1"
+        Me.Shape1.RoundingRadius = New GrapeCity.ActiveReports.Controls.CornersRadius(10.0!, Nothing, Nothing, Nothing, Nothing)
+        Me.Shape1.Top = 4.125!
+        Me.Shape1.Width = 2.676834!
         '
         'GroupFooter1
         '
